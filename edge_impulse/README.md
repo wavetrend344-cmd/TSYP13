@@ -1,10 +1,10 @@
-# 🚀 Edge Impulse Model Integration + STM32 Deployment
+# Edge Impulse Model Integration + STM32 Deployment
 
 This repository contains all code and resources used to create, train, and deploy the **ADCS Telemetry Anomaly Detection Model** using **Edge Impulse** and run it on the **STM32F429** board.
 
 ---
 
-## 📂 Folder Structure Overview
+## Folder Structure Overview
 
 ```bash
 .
@@ -26,7 +26,7 @@ This repository contains all code and resources used to create, train, and deplo
 
 ---
 
-## 🧠 How the Model Was Built
+## How the Model Was Built
 
 1. Raw ADCS telemetry was collected and uploaded using the **data_acquisition** scripts.
 2. Signal processing & feature extraction steps were defined inside **processing_block**.
@@ -39,7 +39,7 @@ which is directly compatible with **STM32CubeMX + STM32Cube.AI**.
 
 ---
 
-## 🔧 Deploying the Model to STM32
+## Deploying the Model to STM32
 
 To use the `.pack` file with STM32CubeIDE, follow the official Edge Impulse guide:
 
@@ -54,7 +54,7 @@ This guide explains:
 
 ---
 
-## 🛰 Viewing Inference Output (STM32F429)
+## Viewing Inference Output (STM32F429)
 
 Once deployed, run the firmware and open a serial monitor to observe anomaly detection output.
 
@@ -71,7 +71,7 @@ This includes:
 
 ---
 
-## ✅ Summary
+## Summary
 
 | Stage | Tool / Location | Status |
 |------|-----------------|--------|
