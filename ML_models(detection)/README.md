@@ -30,7 +30,7 @@ the data contains :
 
 ---
 
-### B. Detailed Feature Extraction Process 🛠️
+### B. Detailed Feature Extraction Process 
 
 Telemetry data is segmented into fixed-length windows, and each segment is transformed into a feature vector.  
 The extracted features fall into four conceptual categories:
@@ -46,7 +46,7 @@ This structured representation ensures anomalies can be detected based on both *
 
 ---
 
-### C. Final Optimization (Correlation Filtering) 🎯
+### C. Final Optimization (Correlation Filtering) 
 
 To reduce dimensionality and avoid redundant information affecting the model, a **correlation matrix** was computed across all extracted features.  
 Highly correlated features were removed to improve:
