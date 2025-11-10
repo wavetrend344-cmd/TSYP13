@@ -1,4 +1,4 @@
-# 🚀 On-Board AI for ADCS Anomaly Detection  
+# On-Board AI for ADCS Anomaly Detection  
 **Model Deployment on STM32 (STM32Cube.AI)and (Edge impulse)**
 
 This guide explains how to deploy and run the **Anomaly Detection + Correction Neural Networks** on the **STM32F429** microcontroller using **STM32Cube.AI** and **Edge impulse**.  
@@ -6,7 +6,7 @@ The model performs **real-time inference on-board** to detect anomalies in ADCS 
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 1. Requirements  
 2. Opening the Project in STM32CubeIDE  
 3. Build and Debug  
@@ -16,7 +16,7 @@ The model performs **real-time inference on-board** to detect anomalies in ADCS 
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 | Tool | Purpose | Link |
 |------|---------|------|
@@ -32,7 +32,7 @@ Extract the STM32 project using **7Zip** to avoid folder structure errors:
 
 ---
 
-## 🧰 Opening the Project in STM32CubeIDE
+## Opening the Project in STM32CubeIDE
 
 1. Connect the **STM32F429** board to your PC via USB.
 2. Open:
@@ -53,7 +53,7 @@ Click **Finish**.
 
 ---
 
-## ⚙️ Build and Debug
+## Build and Debug
 
 ### Build
 
@@ -120,7 +120,7 @@ Expected terminal output:
 
 ---
 
-## ✏️ Modifying the Input Data
+## Modifying the Input Data
 
 Edit the input arrays in:
 
@@ -143,7 +143,7 @@ segments.csv
 
 Rebuild → Debug → View output in PuTTY.
 
-📂 Project Structure
+Project Structure
 ```bash
 Cube_AI/satellite_anomaly_detection_model
 ├── Core
