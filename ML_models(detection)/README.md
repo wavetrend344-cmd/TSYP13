@@ -1,4 +1,4 @@
-## 🧪 Dataset Overview and Preparation Pipeline 
+## Dataset Overview and Preparation Pipeline 
 
 The anomaly detection models are trained using telemetry collected from the **OPS-SAT ADCS** subsystem.  
 The data undergoes a structured pipeline consisting of **scaling → feature extraction → optimization** to produce a compact, high-information training dataset suitable for on-board inference.
@@ -61,14 +61,14 @@ len_weighted, diff2_var, var_div_len, var_div_duration, diff2_peaks, std
 <img width="1048" height="779" alt="image" src="https://github.com/user-attachments/assets/383b09c5-6073-4798-828a-78b51ce69848" />
 
 
-# 🧠 Anomaly Detection Model Comparison
+# Anomaly Detection Model Comparison
 
 This directory contains the notebooks, data, and source code used to train and validate the primary **Anomaly Detection Model** for the **OPS-SAT ADCS** system.  
 The final deployed model is an **Artificial Neural Network (ANN)**, selected after comparison with a **Random Forest (RF)** classifier.
 
 ---
 
-## 📊 Performance Comparison
+## Performance Comparison
 
 ### 1. Model Efficacy Metrics
 
@@ -95,7 +95,7 @@ The ANN model is optimized for real-time inference on the **STM32F429** using th
 
 ---
 
-## 📉 Confusion Matrix Analysis
+## Confusion Matrix Analysis
 
 | **Artificial Neural Network (ANN)** | **Random Forest (RF)** |
 |---|---|
@@ -107,7 +107,7 @@ The ANN model is optimized for real-time inference on the **STM32F429** using th
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 The **Artificial Neural Network (ANN)** was selected as the final model due to:
 
@@ -122,7 +122,7 @@ This makes the ANN model both **accurate** and **deployment-efficient**, meeting
 
 ---
 
-## 🧠 Artificial Neural Network (ANN) Architecture 
+## Artificial Neural Network (ANN) Architecture 
 
 The anomaly detection is executed using a **Multi-Layer Perceptron (MLP)** optimized for **fast, low-power edge inference** on the STM32F429 microcontroller.  
 The network performs a **binary classification** to determine whether a given ADCS telemetry segment is **Normal** or **Anomalous**.
@@ -174,7 +174,7 @@ Interpretation:
 
 ---
 
-### ✅ Key Deployment Benefits:
+### Key Deployment Benefits:
 | Metric | Value |
 |-------|-------|
 | **Classification Accuracy** | 95.65% |
