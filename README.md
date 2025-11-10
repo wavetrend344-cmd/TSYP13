@@ -1,4 +1,4 @@
-# 🛰️ AI-Driven Predictive Maintenance for OPS-SAT ADCS
+# AI-Driven Predictive Maintenance for OPS-SAT ADCS
 
 ## Autonomous ADCS Monitoring System for 3U CubeSats
 
@@ -13,7 +13,7 @@ By running complex diagnostics directly on-board, the system significantly enhan
 </p>
 
 
-## ✨ System Architecture and Key Features
+## System Architecture and Key Features
 
 The solution leverages a dual-AI approach optimized for low-power edge computing.
 
@@ -31,7 +31,7 @@ The solution leverages a dual-AI approach optimized for low-power edge computing
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 The project code and resources are logically separated into three major development areas: Machine Learning (ML), Data Processing, and Embedded Implementation.
 ```bash
 ├── ML_models(detection)    # Anomaly Detection (ANN) Model Notebooks and Training Data
@@ -46,7 +46,7 @@ The project code and resources are logically separated into three major developm
 
 ---
 
-## 🧠 I. Machine Learning Models
+## I. Machine Learning Models
 
 The ML subsystem is divided into **anomaly detection** and **predictive correction**, covering **9 ADCS sensor channels**.
 
@@ -82,7 +82,7 @@ After the ANN detects an anomaly, **9 dedicated Random Forest models** (one per 
 
 ---
 
-## ⚙️ II. Embedded Firmware (STM32F429)
+## II. Embedded Firmware (STM32F429)
 
 **Directory:** `STM32f429`  
 Implements the ML models on the **STM32F429 Discovery Kit (ARM Cortex-M4F)**.
@@ -102,7 +102,7 @@ Designed for CubeSat constraints: low power, radiation tolerance, thermal stabil
 
 ---
 
-## 🛰️ III. Data Acquisition & Feature Engineering
+## III. Data Acquisition & Feature Engineering
 
 **Directory:** `edge_impulse`
 
@@ -120,7 +120,7 @@ Used for:
 
 
 
-## ⚙️ Deployment and Development Tools
+## Deployment and Development Tools
 
 This project utilizes the following key tools and platforms:
 
@@ -128,7 +128,7 @@ This project utilizes the following key tools and platforms:
 * **Embedded IDE:** STM32CubeIDE
 * **ML Frameworks:** TensorFlow/Keras, Scikit-learn, STM32Cube.AI, Edge Impulse
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Clone the Repository
 
