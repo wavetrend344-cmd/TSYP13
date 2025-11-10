@@ -85,7 +85,7 @@ You should now be in debugging mode:
 
 ---
 
-## 🛰 Viewing Real-Time Output via Serial Terminal
+## Viewing Real-Time Output via Serial Terminal
 
 1. Open **Device Manager** → find the **COM port**:
 
